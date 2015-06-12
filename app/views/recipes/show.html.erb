@@ -1,0 +1,8 @@
+<%= @recipe.title %>
+<%= @recipe.ingredients %>
+<%= @recipe.instructions %>
+<%= link_to 'edit', edit_recipe_path %>
+<%= link_to 'delete', recipe_path, method: :delete %>
+<% @recipe.categories.each do |category| %>
+  <%= link_to category.name, category %>
+<% end %>
