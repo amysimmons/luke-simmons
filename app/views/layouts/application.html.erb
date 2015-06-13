@@ -13,7 +13,8 @@
     <%= link_to '#' do %>
       <i class="fa fa-bars hamburger"></i>
     <% end %>
-    <ul class="nav-menu show-menu">
+    <div class="nav-menu">
+      <ul>
       <li><%= link_to 'Kitchen tips', '#' %></li>
       <li><%= link_to 'About me', '#' %></li>
       <% if admin_signed_in? %>
@@ -21,6 +22,8 @@
         <li><%= link_to 'Sign out', destroy_admin_session_path, method: :delete %></li>
       <% end %>
     </ul>
+    </div>
+
   </div>
 </nav>
 <div class="container">

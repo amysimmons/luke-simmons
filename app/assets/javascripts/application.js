@@ -16,9 +16,10 @@
 //= require_tree .
 
 
-var showNavMenu = function(){
-  $('nav ul').toggleClass('show-menu');
-  console.log('hi');
+var showNavMenu = function(e){
+  e.preventDefault();
+  $('.nav-menu').toggleClass('show-menu');
+
 };
 
 $(document).ready(function(){
