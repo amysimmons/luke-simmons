@@ -18,3 +18,51 @@ Recipe.create({
   ingredients: "patty\nbun",
   instructions: "1. blah\n2. blah blah\n3. blah blah blah"
 })
+
+Recipe.create({
+  title: 'Chicken and Vegetable Soup',
+  ingredients: "chicken\nvegetables",
+  instructions: "1. blah\n2. blah blah\n3. blah blah blah"
+})
+
+Recipe.create({
+  title: 'Winter soup',
+  ingredients: "chicken\nvegetables",
+  instructions: "1. blah\n2. blah blah\n3. blah blah blah"
+})
+
+Recipe.create({
+  title: 'Spaghetti Bolognaise',
+  ingredients: "chicken\nvegetables",
+  instructions: "1. blah\n2. blah blah\n3. blah blah blah"
+})
+
+Recipe.create({
+  title: 'Summer salad',
+  ingredients: "chicken\nvegetables",
+  instructions: "1. blah\n2. blah blah\n3. blah blah blah"
+})
+
+Recipe.create({
+  title: 'Thai curry',
+  ingredients: "chicken\nvegetables",
+  instructions: "1. blah\n2. blah blah\n3. blah blah blah"
+})
+
+Recipe.create({
+  title: 'Chicken and cashew stir fry',
+  ingredients: "chicken\nvegetables",
+  instructions: "1. blah\n2. blah blah\n3. blah blah blah"
+})
+
+Recipe.create({
+  title: 'Salad',
+  ingredients: "chicken\nvegetables",
+  instructions: "1. blah\n2. blah blah\n3. blah blah blah"
+})
+
+Recipe.create({
+  title: 'Veg and Beef Stir Fry',
+  ingredients: "chicken\nvegetables",
+  instructions: "1. blah\n2. blah blah\n3. blah blah blah"
+})
