@@ -1,8 +1,12 @@
 <%= @recipe.title %>
+<%= render @recipe.images %>
 <%= markdown @recipe.ingredients %>
 <%= markdown @recipe.instructions %>
 <%= link_to 'edit', edit_recipe_path %>
 <%= link_to 'delete', recipe_path, method: :delete %>
+<% if admin_signed_in? %>
+  <%= link_to 'Add image', new_recipe_image_path(@recipe) %>
+<% end %>
 <% @recipe.categories.each do |category| %>
   <%= link_to category.name, category %>
 <% end %>
