@@ -1,2 +1,7 @@
-<%= image_tag image.image %>
+<div>
+<%= image_tag image.image.small %>
 <p><%= image.caption %></p>
+<% if admin_signed_in? %>
+  <%= link_to 'Delete', recipe_image_path(image.recipe_id, image.id), method: :delete %>
+<% end %>
+</div>
