@@ -14,3 +14,14 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+var showNavMenu = function(){
+  $('nav ul').toggleClass('show-menu');
+  console.log('hi');
+};
+
+$(document).ready(function(){
+  $('.hamburger').on('click', showNavMenu);
+})
+

@@ -10,29 +10,116 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require font-awesome
  *= require_tree .
  *= require_self
  */
 
- body, html {
-  margin: 0;
-  padding: 0;
-  font-family: helvetica;
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+margin: 0;
+padding: 0;
+font-family: helvetica;
+}
+
+nav {
+height: 100px;
+background-color: orangered;
+color: #fff;
+
+  h1 {
+    display: inline;
+    float: left;
+    line-height: 100px;
+    margin: 0;
+  }
+
+  .nav-links {
+    text-align: right;
+    width: 960px;
+    margin: 0 auto;
+
+    & > a {
+      line-height: 100px;
+      font-size: 2em;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .nav-menu {
+    background-color: orangered;
+    margin: 0;
+    a {
+      display: block;
+      padding: 5px 40px;
+    }
+  }
+
+  li {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+    padding: 20px;
+  }
+
+  ul {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.8s;
+    -moz-transition: max-height 0.8s;
+    transition: max-height 0.8s;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    z-index: 10;
+  }
+
+  ul.show-menu {
+    padding-bottom: 1.1em;
+    max-height: 160px;
+  }
+}
+
+ .container {
+  max-width: 960px;
+  margin: 100px auto;
  }
 
 .recipe-card {
-  display: inline-block;
-  width: 50vw;
-  height: 50vh;
-  background-color: #eee;
+  float: left;
+  width: 320px;
+  height: 320px;
+  position: relative;
+
+  &:hover {
+    background-color: rgba(255, 69, 0, 0.64);
+    .recipe-card-background {
+      -webkit-filter: grayscale(0%);
+    }
+  }
+
+  h2 {
+    padding: 0;
+    margin: 0;
+  }
 
   a {
     text-decoration: none;
     color: #fff;
-    font-size: 4em;
+    font-size: 2.5em;
 
   }
-
+/*
   &.recipe-color-asian {
     background-color: red;
   }
@@ -55,6 +142,21 @@
 
   &.recipe-color-sweets {
     background-color: orange;
-  }
+  }*/
+}
+
+.recipe-card-content {
+  padding: 20px;
+}
+
+.recipe-card-background {
+  height:100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: grayscale(100%) blur(1px);
+  -moz-filter: grayscale(100%) blur(1px);
 }
 

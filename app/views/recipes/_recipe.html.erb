@@ -1,3 +1,7 @@
 <div class="recipe-card <%=recipe_bg_color(recipe)%>">
-  <h2><%= link_to recipe.title, recipe %></h2>
+  <div class="recipe-card-background" style="background-image: url(<%=backround_img(recipe)%>)">
+  </div>
+  <div class="recipe-card-content">
+    <h2><%= link_to recipe.title, recipe %></h2>
+  </div>
 </div>
