@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   resources :recipes do
     resources :images, only: [:new, :create, :destroy]
   end
-  resources :categories
+  resources :categories, only: [:new, :create, :destroy]
 
   get '/about' => 'pages#about'
   get '/tips' => 'pages#tips'

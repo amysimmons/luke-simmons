@@ -31,7 +31,6 @@ var handleRecipeFilterClick = function(e){
 }
 
 var filterRecipes = function(category){
-  console.log('filter recipes called');
   $('.recipe-card').show();
   $('.recipe-card').filter(function(){
     var categories = $(this).data('categories');

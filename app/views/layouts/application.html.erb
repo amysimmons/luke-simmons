@@ -15,15 +15,18 @@
     <% end %>
     <div class="nav-menu">
       <ul>
-          <li class="all-recipes"><%= link_to 'All recipes', root_path %></li>
+        <li class="all-recipes"><%= link_to 'All recipes', root_path %></li>
+        <div class="nav-divider"></div>
         <% category_names(all_categories).each do |category| %>
           <li class="category-link" data-category="<%= category.parameterize %>">
             <a href="/#<%=category.parameterize%>"><%= category %></a>
           </li>
         <% end %>
-          <li><%= link_to 'Kitchen tips', tips_path %></li>
-          <li><%= link_to 'About me', about_path %></li>
+        <div class="nav-divider"></div>
+        <li><%= link_to 'Kitchen tips', tips_path %></li>
+        <li><%= link_to 'About me', about_path %></li>
         <% if admin_signed_in? %>
+        <div class="nav-divider"></div>
           <li><%= link_to 'New recipe', new_recipe_path %></li>
           <li><%= link_to 'Sign out', destroy_admin_session_path, method: :delete %></li>
         <% end %>

@@ -1,5 +1,6 @@
 <div class="recipe-card" data-categories="<%=recipe_categories(recipe)%>">
-  <div class="recipe-card-background" style="background-image: url(<%=backround_img(recipe)%>)">
+  <div class="recipe-card-background">
+    <img src="<%=backround_img(recipe)%>">
   </div>
   <div class="recipe-card-content">
     <h2><%= link_to recipe.title, recipe %></h2>
