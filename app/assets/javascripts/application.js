@@ -20,7 +20,12 @@
 var showNavMenu = function(e){
   e.preventDefault();
   $('.nav-menu').toggleClass('show-menu');
-};
+}
+
+var showAllRecipes = function(e){
+  e.preventDefault();
+  $('.recipe-card').show();
+}
 
 var filterRecipes = function(e){
   e.preventDefault();
@@ -35,5 +40,6 @@ var filterRecipes = function(e){
 $(document).ready(function(){
   $('.hamburger').on('click', showNavMenu);
   $('.category-link').on('click', filterRecipes);
+  $('.all-recipes').on('click', showAllRecipes);
 })
 

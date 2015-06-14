@@ -15,6 +15,7 @@
     <% end %>
     <div class="nav-menu">
       <ul>
+          <li class="all-recipes"><%= link_to 'All recipes', '#' %></li>
         <% all_categories(@categories).each do |category| %>
           <li class="category-link" data-category="<%= category.parameterize %>"><a href="#"><%= category %></a></li>
         <% end %>
