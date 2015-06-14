@@ -13,24 +13,24 @@
 //= require jquery
 //= require underscore
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
-
 
 var showNavMenu = function(e){
   e.preventDefault();
   $('.nav-menu').toggleClass('show-menu');
 }
 
-var showAllRecipes = function(e){
-  e.preventDefault();
+var showAllRecipes = function(){
   $('.recipe-card').show();
 }
 
-var filterRecipes = function(e){
-  e.preventDefault();
-  $('.recipe-card').show();
+var handleRecipeFilterClick = function(){
   category = $(this).data('category');
+  filterRecipes(category);
+}
+
+var filterRecipes = function(category){
+  $('.recipe-card').show();
   $('.recipe-card').filter(function(){
     var categories = $(this).data('categories');
     return !_.includes(categories, category)
@@ -39,7 +39,13 @@ var filterRecipes = function(e){
 
 $(document).ready(function(){
   $('.hamburger').on('click', showNavMenu);
-  $('.category-link').on('click', filterRecipes);
   $('.all-recipes').on('click', showAllRecipes);
+
+  if($('body').hasClass('recipes index')) {
+    $('.category-link').on('click', handleRecipeFilterClick);
+  }
 })
+
+
+
 

@@ -3,16 +3,16 @@ module ApplicationHelper
     Markdown.new.render(text).html_safe
   end
 
-  def all_categories(categories)
+  def category_names(categories)
     categories.map do |category|
       category.name
-    end.uniq
+    end.uniq if categories
   end
 
   def recipe_categories(recipe)
     recipe.categories.map do |category|
       category.name.parameterize
-    end
+    end if recipe.categories
   end
 
   def backround_img(recipe)

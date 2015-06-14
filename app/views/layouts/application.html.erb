@@ -6,28 +6,29 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class="<%= controller_name %> <%= params[:action] %>">
 <nav>
   <div class="nav-links">
-    <h1>Luke simmons</h1>
+    <h1 class="name"><%= link_to 'Luke Simmons', root_path %></h1>
     <%= link_to '#' do %>
       <i class="fa fa-bars hamburger"></i>
     <% end %>
     <div class="nav-menu">
       <ul>
-          <li class="all-recipes"><%= link_to 'All recipes', '#' %></li>
-        <% all_categories(@categories).each do |category| %>
-          <li class="category-link" data-category="<%= category.parameterize %>"><a href="#"><%= category %></a></li>
+          <li class="all-recipes"><%= link_to 'All recipes', root_path %></li>
+        <% category_names(all_categories).each do |category| %>
+          <li class="category-link" data-category="<%= category.parameterize %>">
+            <a href="/#<%=category.parameterize%>"><%= category %></a>
+          </li>
         <% end %>
-          <li><%= link_to 'Kitchen tips', '#' %></li>
-          <li><%= link_to 'About me', '#' %></li>
+          <li><%= link_to 'Kitchen tips', tips_path %></li>
+          <li><%= link_to 'About me', about_path %></li>
         <% if admin_signed_in? %>
           <li><%= link_to 'New recipe', new_recipe_path %></li>
           <li><%= link_to 'Sign out', destroy_admin_session_path, method: :delete %></li>
         <% end %>
     </ul>
     </div>
-
   </div>
 </nav>
 <div class="container">

@@ -3,7 +3,6 @@ class RecipesController < ApplicationController
 
   def index
     @recipes = Recipe.all
-    @categories = Category.all
   end
 
   def new

@@ -5,4 +5,7 @@ Rails.application.routes.draw do
     resources :images, only: [:new, :create, :destroy]
   end
   resources :categories
+
+  get '/about' => 'pages#about'
+  get '/tips' => 'pages#tips'
 end
