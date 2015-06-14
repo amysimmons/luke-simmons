@@ -15,12 +15,15 @@
     <% end %>
     <div class="nav-menu">
       <ul>
-      <li><%= link_to 'Kitchen tips', '#' %></li>
-      <li><%= link_to 'About me', '#' %></li>
-      <% if admin_signed_in? %>
-        <li><%= link_to 'New recipe', new_recipe_path %></li>
-        <li><%= link_to 'Sign out', destroy_admin_session_path, method: :delete %></li>
-      <% end %>
+        <% all_categories(@categories).each do |category| %>
+          <li class="category-link" data-category="<%= category.parameterize %>"><a href="#"><%= category %></a></li>
+        <% end %>
+          <li><%= link_to 'Kitchen tips', '#' %></li>
+          <li><%= link_to 'About me', '#' %></li>
+        <% if admin_signed_in? %>
+          <li><%= link_to 'New recipe', new_recipe_path %></li>
+          <li><%= link_to 'Sign out', destroy_admin_session_path, method: :delete %></li>
+        <% end %>
     </ul>
     </div>
 

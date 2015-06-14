@@ -3,8 +3,16 @@ module ApplicationHelper
     Markdown.new.render(text).html_safe
   end
 
-  def recipe_bg_color(recipe)
-    'recipe-color-'+recipe.categories.first.name.parameterize if recipe.categories.first
+  def all_categories(categories)
+    categories.map do |category|
+      category.name
+    end.uniq
+  end
+
+  def recipe_categories(recipe)
+    recipe.categories.map do |category|
+      category.name.parameterize
+    end
   end
 
   def backround_img(recipe)
