@@ -3,10 +3,15 @@ Recipe.destroy_all
 Image.destroy_all
 Admin.destroy_all
 
-#create admin
+#create admins
 
 a1 = Admin.create({
   email: 'amy@amy.com',
+  password: 'password'
+})
+
+a2 = Admin.create({
+  email: 'lukesimmons96@gmail.com',
   password: 'password'
 })
 
@@ -74,7 +79,8 @@ r1 = Recipe.create({
   5. In a hot pan -medium to high heat- add a good amount of olive oil or sunflower oil with a teaspoon of sesame oil combined. Add your onion, capsicum and carrot and fry for a few minutes. Then add the chicken. Cook the chicken for another minute before adding the garlic, broccoli and chilli. Continue frying for a further 2-3 minutes to allow the chicken to cook before adding the spring onions. Add your stock mixture to the pan along with 2 tablespoons of soy, 1 tablespoon of fish sauce, 2 table spoons of brown sugar, a pinch of salt, a good amount of pepper and a handful of crushed nuts. (Leave some nuts aside to sprinkle on top at the end) Turn off the heat.
   6. In a non stick pan on a medium heat, add 2 eggs that have been whisked together and gently fold in the pan. Try and achieve a ‘scramble egg’ texture.
   7. Finally, drain the noodles and add them to the Pad Thai along with the egg. Toss/mix well and finish with the juice of 1 lime and the remainder of your nuts as garnish.
-  "
+  ",
+  images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'default.png')))]
 })
 
 r2 = Recipe.create({
@@ -103,7 +109,8 @@ r2 = Recipe.create({
   2. In a baking tray, add your leeks with 1 cup of orange juice. (This brings out the sweetness of the leeks) cook for about 30 minutes on 160 degrees, or until soft. Remove the leeks and add to the simmering vegetable stock.
   3. To the baking tray add your carrots, 4 cloves of garlic and drizzle with olive oil- and roast for 45 mins on a high heat- 190 degrees. Turn once half way through. Once cooked and nicely coloured, add the carrots and the garlic to the simmering vegetable stock. At this point, remove your sprigs of rosemary and thyme. Blitz until nicely smooth turning it into a soup.
   4. Add 1 T spoon of cumin, 1 cup of milk, a knob of butter and 3 table spoons of maple syrup. Squeeze in half a lemon and season with salt and pepper to taste. Give it one last blitz. To finish, garnish with chopped parsley and serve with garlic herb bread.
-  "
+  ",
+  images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'default.png')))]
 })
 
 r3 = Recipe.create({
@@ -229,7 +236,8 @@ r5 = Recipe.create({
   1. Add all your ingredients into a bowl and whisk well. Ensuring there is no lumps.
   2. In a non stick pan on a medium – high heat, add a knob of butter. When the butter has melted and turned golden brown, begin adding one full ladle of your mix into the pan to make one pancake. Repeat the process until you have used all the pancake mixture.
   3. Finish your pancakes with a sprinkle of icing sugar and Serve with fresh strawberries and crème’ fresh.
-  "
+  ",
+  images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'default.png')))]
 })
 
 r6 = Recipe.create({
@@ -307,7 +315,8 @@ r7 = Recipe.create({
   3. After 3 hours, remove the meat and with two folks, shred the steak into fine strips. Discard the bay leaves from the stew and with a blender, blitz the ingredients make a smooth consistency. Add a generous pinch of salt and pepper and squeeze in your lemon juice.
   4. Return the meat to the stew and mix through well.
   5. Serve with Creamy mash potato or Penne Pasta and garnish with freshly chopped chives and parmesan cheese.
-  "
+  ",
+  images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'default.png')))]
 })
 
 r8 = Recipe.create({
@@ -329,7 +338,8 @@ r8 = Recipe.create({
   2. In a pan on a medium – high heat, add a couple of tablespoons of olive oil along with your onion and garlic. Fry to soften for around 2-3 minutes. Next, add your chicken, Rosemary and capsicum and continue frying. Ensuring to toss and mix through well.
   3. Once the chicken is ¾ cooked, add your honey, mustard, chicken stock and cream and stir everything together well. Allow the sauce to come to the boil before turning the pan down to a low heat and leaving to simmer. Let it simmer for as long as it takes for the chicken to finish cooking. Lastly, turn off the heat and season well with Salt and Pepper.
   4. Serve with Fluffy Rice or Creamy Mash.
-  "
+  ",
+  images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'default.png')))]
 })
 
 r9 = Recipe.create({
@@ -605,7 +615,8 @@ r14 = Recipe.create({
 
   1. With the beautiful red wine, herb and vegetable flavoured stew, you can poor it back into the saucepan on a medium heat to reduce slightly for 10 or 20 minutes on the stove. Correcting any seasoning with salt and pepper and adding a squeeze of lemon juice. Once your happy, incorporate the lamb back to the stew and serve.
   2. Serve with a creamy mashed Potato.
-  "
+  ",
+  images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'default.png')))]
 })
 
 r15 = Recipe.create({
@@ -662,7 +673,8 @@ r16 = Recipe.create({
     3. In a pre heated wok on a high heat, add a couple of table spoons of olive oil and add your sliced onions. Allow the onions to cook for half a minute before adding the carrot, ginger, chilli, beans and capsicum. Fry and stir your vegies for a minute or two before adding a handful of sesame seeds along with the marinated sliced chicken.
     4. Once the chicken has cooked, finish your stir fry off by adding in the sauces. Start by 3 tablespoons of Soy, 1 tablespoon of fish, 3 tablespoons of honey and lastly, 1 tablespoon of sesame oil. Throw in your egg noodles and toss everything together well. You can now turn off the heat.
     5. Serve in a nice bowl. Garnish with crushed cashews and freshly squeezed lime.
-  "
+  ",
+  images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'default.png')))]
 })
 
 r17 = Recipe.create({
@@ -706,7 +718,8 @@ r18 = Recipe.create({
   1. Cut your Pumkin and Potato into 2-3cm cubes. Place them onto a baking try and combine your Dry Oregano, Thyme, cumin and olive oil and mix together well.
   2. In a pre heated oven on 200 degrees, roast for about 35-45 minutes, or until everything is cooked well and coloured nicely.
   3. Finally, add your ingredients into a saucepan and with a stick blender, blitz everything together ensuring to add a good knob of butter, salt and pepper and 300ml of cream.
-  "
+  ",
+  images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'default.png')))]
 })
 
 r19 = Recipe.create({
@@ -743,24 +756,25 @@ r19 = Recipe.create({
   4. Reduce the wed wine slightly allowing the alcohol to burn away yet slightly intensifying the red wine taste, before adding the cans of diced tomato's. Bring the sauce to the boil and incorporate the cooked mince, chicken stock and sugar.
   5. Mix everything together well. Once everything has come to the biol for the final time, reduce the heat to a low and place a lid on the saucepan.
   6. Simmer for 2-3 hours.
-  "
+  ",
+  images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'default.png')))]
 })
 
 r20 = Recipe.create({
   title: 'Sausage and Penne Ragu',
   ingredients: "
-    *500g of good quality Pork Sausage
-    *3 cloves of Garlic
-    *1 Brown onion
-    *1 tablespoon of ground Oregano
-    *1 tablespoon of ground Rosemary
-    *2 carrots
-    *2 sticks of celery
-    *1 cup of beef stock
-    *1 can of diced Tomato's
-    *1 tablespoon of Raw Sugar
-    *3 Bay leaves
-    *100ml of cream
+    * 500g of good quality Pork Sausage
+    * 3 cloves of Garlic
+    * 1 Brown onion
+    * 1 tablespoon of ground Oregano
+    * 1 tablespoon of ground Rosemary
+    * 2 carrots
+    * 2 sticks of celery
+    * 1 cup of beef stock
+    * 1 can of diced Tomato's
+    * 1 tablespoon of Raw Sugar
+    * 3 Bay leaves
+    * 100ml of cream
   ",
   instructions: "
     1. Start by mincing your sausage by slicing and chopping it. Then finely dice your onion, carrot, celery and garlic.

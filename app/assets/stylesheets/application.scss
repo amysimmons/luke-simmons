@@ -145,7 +145,11 @@ nav {
   margin: 80px auto;
  }
 
-.recipe-card {
+ .recipes-container {
+  font-size: 0;
+ }
+
+.recipe-card, .about-card {
   float: left;
   width: 33.33%;
 /*  height: 320px;*/
@@ -153,7 +157,7 @@ nav {
 
   &:hover {
     background-color: rgba(255, 69, 0, 0.64);
-    .recipe-card-background {
+    .recipe-card-background, .about-card-background {
       -webkit-filter: grayscale(0%);
     }
   }
@@ -171,7 +175,7 @@ nav {
   }
 }
 
-.recipe-card-content {
+.recipe-card-content, .about-card-content {
   padding: 20px;
   overflow: hidden;
   height: 100%;
@@ -181,15 +185,16 @@ nav {
   left: 0;
   bottom: 0;
   width: 100%;
+  font-size: 16px;
 }
 
-.recipe-card-background {
+.recipe-card-background, .about-card-background {
   height:100%;
   width: 100%;
   background-size: cover;
   background-position: center;
-  -webkit-filter: grayscale(100%) blur(1px);
-  -moz-filter: grayscale(100%) blur(1px);
+  -webkit-filter: grayscale(100%) blur(0px);
+  -moz-filter: grayscale(100%) blur(0px);
   img {
     width: 100%;
   }
@@ -200,7 +205,7 @@ nav {
 .left-content {
   float: left;
   width: 49%;
-  .recipe-card {
+  .recipe-card, .about-card {
     width: 100%;
   }
 }
@@ -209,6 +214,9 @@ nav {
   /*display: inline-block;*/
   float: right;
   width: 49%;
-  padding: 0px 50px;
+  padding: 100px;
+  li {
+    padding: 0.5em 0;
+  }
 }
 

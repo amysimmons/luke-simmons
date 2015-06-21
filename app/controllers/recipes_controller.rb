@@ -11,6 +11,9 @@ class RecipesController < ApplicationController
 
   def create
     @recipe = Recipe.create recipe_params
+    if @recipe.images.length == 0
+      @recipe.images.create image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'default.png'))
+    end
     redirect_to @recipe
   end
 
