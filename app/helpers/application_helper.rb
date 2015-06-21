@@ -18,4 +18,9 @@ module ApplicationHelper
   def backround_img(recipe)
     recipe.images.first.image.large.url if recipe.images.first
   end
+
+  def recipe_show_page
+    request.env['PATH_INFO'].include? 'recipes/'
+  end
+
 end

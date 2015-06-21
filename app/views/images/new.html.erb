@@ -1,5 +1,7 @@
-<%= simple_form_for [:recipe, @image] do |f| %>
-  <%= f.input :image %>
-  <%= f.input :caption %>
-  <%= f.submit %>
-<% end %>
+<div class="form-container">
+  <%= simple_form_for [:recipe, @image] do |f| %>
+    <%= f.input :image %>
+    <%= f.input :caption %>
+    <%= f.submit class: 'btn'%>
+  <% end %>
+</div>

@@ -6,14 +6,6 @@
   <p><%= markdown @recipe.ingredients %></p>
   <h2>Method</h2>
   <p><%= markdown @recipe.instructions %></p>
-
-  <div class="admin-controls">
-    <% if admin_signed_in? %>
-      <%= link_to 'Edit recipe', edit_recipe_path, class: 'btn' %>
-      <%= link_to 'Delete recipe', recipe_path, method: :delete, class: 'btn' %>
-      <%= link_to 'Add image', new_recipe_image_path(@recipe), class: 'btn' %>
-    <% end %>
-  </div>
 </div>
 
 
