@@ -22,5 +22,4 @@ module ApplicationHelper
   def recipe_show_page
     controller.controller_name == 'recipes' && controller.action_name == 'show'
   end
-
 end
