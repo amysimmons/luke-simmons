@@ -68,6 +68,7 @@ group :development, :test do
   gem 'spring'
 
   gem 'sqlite3'
+  # gem 'pg'
 
   group :production do
     gem 'pg'
