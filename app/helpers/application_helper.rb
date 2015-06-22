@@ -20,7 +20,7 @@ module ApplicationHelper
   end
 
   def recipe_show_page
-    request.env['PATH_INFO'].include? 'recipes/'
+    controller.controller_name == 'recipes' && controller.action_name == 'show'
   end
 
 end
