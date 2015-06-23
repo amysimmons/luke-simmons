@@ -232,7 +232,7 @@ nav {
   font-size: 20px;
   margin: 200px 100px;
 
-  input[type="text"], textarea, select, input[type="file"]{
+  input[type="text"], textarea, select, input[type="file"], input[type="email"], #admin_password{
       width: 100%;
       margin-bottom: 50px;
       border: 3px solid #212121;
