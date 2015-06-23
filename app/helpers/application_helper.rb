@@ -5,8 +5,10 @@ module ApplicationHelper
 
   def category_names(categories)
     categories.map do |category|
-      category.name
-    end.uniq if categories
+      if category.recipes.count >= 1
+        category.name
+      end
+    end.uniq.compact if categories
   end
 
   def recipe_categories(recipe)

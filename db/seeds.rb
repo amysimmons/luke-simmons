@@ -116,8 +116,7 @@ r2 = Recipe.create({
 r3 = Recipe.create({
   title: 'Thai Satay Beef or Chicken',
   ingredients: "
-
-  ##Paste
+  ### Paste
 
   * ½  a red chilli
   * 2 sprigs of spring onions
@@ -128,7 +127,7 @@ r3 = Recipe.create({
   * 1 T spoon of ground coriander
   * 1 T spoon of ground cumin
 
-  ##Sauce
+  ### Sauce
 
   * 2-3 tablespoons of peanut butter
   * 3 tablespoons soy sauce
@@ -140,7 +139,7 @@ r3 = Recipe.create({
   * 1 can of coconut milk (or 1 cup of milk)
   * 1 tablespoon of honey
 
-  ##Pan
+  ### Pan
 
   * 1 chicken breast or 1 piece of sirloin steak -finely sliced (depending on what meat you prefer)
   * 2 sliced carrots (Julian)
@@ -149,12 +148,11 @@ r3 = Recipe.create({
   * A handful of toasted nuts
   ",
   instructions: "
-
-  ##Paste
+  ### Paste
 
   1. Ground in a pestle and mortal with 2 tablespoons of olive oil to form a paste
 
-  ##Sauce
+  ### Sauce
 
   1. Fry off your paste in a saucepan on a medium to high heat (2-3 mins) to release the aroma of the ingredients.
   2. Add your peanut butter and your chicken stock along with the 3 tablespoons of soy sauce.
@@ -162,7 +160,7 @@ r3 = Recipe.create({
   4. Strain the sauce through a fine siv to ensure a perfectly smooth satay sauce.
   5. Return to the saucepan and leave to gently simmer for a further 30 minutes.
 
-  ##Pan
+  ### Pan
 
   1. Put in your onions and carrots into a hot pan with 1 tablespoon of olive oil and fry until caramelised (2 -3 mins).
   2. Add your beef or chicken along with your snow beans and cook until ¾ of the way cooked (ensuring not to overcook at this point).
@@ -175,8 +173,7 @@ r3 = Recipe.create({
 r4 = Recipe.create({
   title: 'Spaghetti Bolognaise',
   ingredients: "
-
-  ##Napoli Sauce
+  ### Napoli Sauce
 
   * 2 Carrots
   * 2 celery sticks
@@ -190,7 +187,7 @@ r4 = Recipe.create({
   * Good amount of Salt and pepper.
   * 1 can diced tomatos
 
-  ##Bolognaise
+  ### Bolognaise
 
   * 250g of pork mince and 250g of beef mince
   * 2 table spoons of balsamic vinegar
@@ -199,8 +196,7 @@ r4 = Recipe.create({
   * 1 ¼ cup red wine
   ",
   instructions: "
-
-  ##Napoli sauce
+  ### Napoli sauce
 
   1. Roughly chop all your ingredients.
   2. To a saucepan on a medium heat with olive oil, add your onions and garlic and sweat off for 10 minutes.
@@ -208,11 +204,11 @@ r4 = Recipe.create({
   4. Then blitz to a soup like consistency.
   5. You can Season with salt and pepper to your taste.
 
-  ##Pan
+  ### Pan
 
   1. Fry your pork/beef mince off in a pan with 3 table spoons of olive oil on a high heat.
   2. Cook the meat thoroughly and or, until all the water from the meat has cooked out. (You want a completely dry mince)
-  3.To this add your oregano and your balsamic vinegar.
+  3. To this add your oregano and your balsamic vinegar.
   4. Fry for a further 30 seconds before adding your good quality red wine.
   5. Cook for a further 30 seconds to burn the alcohol off and then turn to a low heat.
   6. To the same pan (ensuring it has a lid – if not use a saucepan) add your Napoli sauce and leave to simmer on a low heat for 1 ½ hours. Ensuring to stir occasionally.
@@ -243,8 +239,7 @@ r5 = Recipe.create({
 r6 = Recipe.create({
   title: 'Indian Curry Beef or Chicken',
   ingredients: "
-
-  ##Paste
+  ### Paste
 
   * 2 garlic cloves
   * ½ a  red chilli
@@ -259,7 +254,7 @@ r6 = Recipe.create({
   * 1 tablespoon of ground turmeric
   * 2 tablespoons of extra virgin olive oil
 
-  ##Curry
+  ### Curry
 
   * 1 cup of chicken stock
   * 1 can of diced tomatoes
@@ -270,15 +265,14 @@ r6 = Recipe.create({
   * The juice of half a lime
   ",
   instructions: "
-
-  ##Paste
+  ### Paste
 
   1. In a hot pan with no oil, individually lightly toast the spices to release their aromas and then add to a pestle and mortal.
   2. Roughly chop your other ingredients and add them in with the spices.
   3. Pound the mixture together, adding olive oil to form a paste.
   4. Leave in the fridge to develop flavour for 2-3 hours.
 
-  ##Pan
+  ### Pan
 
   1. In a pan on a medium - high heat, add a splash of olive oil then add your paste. Cook off the ingredients in the paste for 2-3 minutes ensuring not to burn. (If your using beef, add it after the 3 minutes to brown off the meat– (not cooking – just sealing the meat). Add your diced sweet potato and fry for a further minute before slowly adding the cup of chicken stock.
   2. Once the chicken stock begins to boil, add the can of diced tomatoes and the coconut milk, ensuring that the heat gets turned down to low at this point. Throw in your curry leaves and leave to gently simmer, with a lid on, for 2 hrs. Remove the sweet potato after an hour and place to one side (once cooked – optional) and remove the curry leaves.
@@ -304,7 +298,7 @@ r7 = Recipe.create({
   * 1 lemon juiced
   * 2 tablespoons of corn flour
 
-  ##To Garnish
+  ### To Garnish
 
   * Chopped chives
   * Grated Parmesan
@@ -345,8 +339,7 @@ r8 = Recipe.create({
 r9 = Recipe.create({
   title: 'Bruchetta Breads',
   ingredients: "
-
-  ##Basil Pesto
+  ### Basil Pesto
 
   * Good bunch of basil
   * 2 garlic cloves
@@ -356,7 +349,7 @@ r9 = Recipe.create({
   * A pinch of pepper
   * 1 lemon juiced
 
-  ##Crispy Breads with Garlic
+  ### Crispy Breads with Garlic
 
   * 1 white French stick
   * 1 garlic clove
@@ -364,7 +357,7 @@ r9 = Recipe.create({
   * Pepper
   * Oil
 
-  ##Bruschetta
+  ### Bruschetta
 
   * 1 red onion
   * 4-5 buffalo mozzarella
@@ -372,12 +365,11 @@ r9 = Recipe.create({
   * ½ a packet of rocket
   ",
   instructions: "
-
-  ##Basil Pesto
+  ### Basil Pesto
 
   1. Place all the ingredients into a food processor and blitz to form a pesto. If you don’t have a food processor you can achieve the same result in a pestal and mortal.
 
-  ##Crispy Breads with Garlic
+  ### Crispy Breads with Garlic
 
   1. Slice the French stick on an angle. Try to achieve a 1-2cm size piece for every slice.
   2. Spread all the slices of bread onto a baking tray.
@@ -385,7 +377,7 @@ r9 = Recipe.create({
   4. In a pre-heated oven of 150 degrees, place in the tray with your croutons and leave for 6-8 minutes.
   5. Or leave them until the croutons are golden crispy on the outside and semi-soft in the middle.
 
-  ##Bruschetta
+  ### Bruschetta
 
   1. Finely slice the red onion.
   2. Slice the tomatoes into quarters and the buffalo mozzarella into eighths to make lovely bite size pieces.
@@ -400,8 +392,7 @@ r9 = Recipe.create({
 r10 = Recipe.create({
   title: 'Pork and Beef Mince Meatballs with Fennel Seeds, Rosemary and Mozzarella',
   ingredients: "
-
-  ##Gourmet Tomato Sauce
+  ### Gourmet Tomato Sauce
 
   * 1 Brown onion
   * 3-4 Garlic Cloves
@@ -419,7 +410,7 @@ r10 = Recipe.create({
   * A knob of Butter
   * Salt and Pepper
 
-  ##Meatballs
+  ### Meatballs
 
   * Pork / Beef mince (500g)
   * 1 Brown Onion
@@ -435,7 +426,7 @@ r10 = Recipe.create({
   * Plain or corn Flour
   * 2 eggs (egg wash)
 
-  ##Salad
+  ### Salad
 
   * 1 cucumber
   * 1 carrot
@@ -444,20 +435,20 @@ r10 = Recipe.create({
   * Approximately half a pack of crispy Asian noodles
   ",
   instructions: "
-  ##Gourmet Tomato Sauce
+  ### Gourmet Tomato Sauce
 
   1. In a pan on a high heat, add your finely diced onion and garlic along with 2-3 tablespoons of olive oil.
   2. Cook for 2-3 minutes to take the ‘rawness’ out of the veg before adding the can of diced tomatoes followed by all the other ingredients.
   3. Once all the ingredients are incorporated into the pan, turn to a low heat and leave the sauce to simmer in a pan with a lid on for 2-3 hours.
   4. You can add half a cup of water half way through if the sauce begins to dry out.
 
-  ##Meatballs
+  ### Meatballs
 
   1. First, in a pan on a medium heat, add the garlic and onion and sweat off until softened nicely. Get a mixing bowl and add all the other ingredients. Once the onion and garlic mix has cooled, add it to the bowl with the other ingredients and with your fingers, mix and combine everything together well. Divide the mix by four and form each quarter into beautifully large round meatballs.
   2. Next, get yourself three bowls. One containing an egg mix, one containing a plain or corn flour mix and the third is for your bread crumbs. Roll your Meatballs in the flour, the egg and the breadcrumbs, ensuring to coat them well. Leave the meatballs in the fridge to rest for a minimum of 30 minutes to harden, before taking them out of the fridge to begin cooking. When you’re ready to eat, pull the meatballs out of the fridge for 20 minutes before frying
   3. In a pan on a medium to high heat, add 3 tablespoons of olive oil and add the meatballs. Fry in the pan on each side for approximately 2-3 minutes to develop a crunchy and golden crust. Once you have achieved this, place the meatballs in a pre-heated oven of 180 degrees and cook for a further 15-20 minutes making sure you flip your meatballs once throughout the oven baking process. Whilst the meatballs are cooking in the oven, you can begin to make the salad.
 
-  ##Salad
+  ### Salad
 
   1. With a peeler, peel the carrots and the cucumber length ways to for long ribbons. (Peel right down to the core)
   2. Place the noodles on a baking tray and place into the oven for the final five minutes of the meatballs cooking time. Toss all the ingredients in a bowl along with the juice of one lemon and the olive oil.
@@ -503,8 +494,7 @@ r11 = Recipe.create({
 r12 = Recipe.create({
   title: 'Thai Green Curry',
   ingredients: "
-
-  ##Paste
+  ### Paste
 
   * 3 large sprigs of Spring Onion
   * 1 medium size lemon grass
@@ -521,7 +511,7 @@ r12 = Recipe.create({
   * 2 tablespoons of sesame oil
   * 1 cup chicken stock
 
-  ##Pan
+  ### Pan
 
   * 2 Chicken Breast
   * 2 Carrots
@@ -530,13 +520,12 @@ r12 = Recipe.create({
   * 3 tablespoons of honey
   ",
   instructions: "
-
-  ##Paste
+  ### Paste
 
   1. In a Pestal and Mortal, pound all the ingredients together to form a paste. Drizzle in 2-3 tablespoons of olive oil and leave to rest in a fridge for at least one hour.
   2. In a saucepan on a low to medium heat with a dash of olive oil, add half a diced brown onion and your Thai paste. Slowly fry off the ingredients for about 5-10 minutes before adding 1 cup of vegetable stock to the paste along with the juice of half a lime. Let the paste and the stock simmer with a lid on for at least half an hour to incorporate and develop taste and aroma. Add your chicken stock, soy sauce, fish sauce and sesame oil and leave for an hour to simmer would be ideal.
 
-  ##Pan
+  ### Pan
 
   1. Slice the chicken breast through the middle length ways. Throw a handful of sesame seeds over both sides of the chicken and pound them in ensuring they encrust the chicken breasts.
   2. In a pan on a medium to high heat with 2-3 tablespoons of olive oil, add your chicken. Flip the chicken every few minutes to crispin up the sesame seeds. Once the chicken is very nearly cooked, turn the heat to high poor over about 3 tablespoons of honey. Your chicken will now turn golden and sticky but will also be encrusted with a crispy sesame crust.
@@ -597,21 +586,21 @@ r14 = Recipe.create({
   * A good amount of Salt & Pepper
   ",
   instructions: "
-  ##Saucepan
+  ### Saucepan
 
   1. First, start by roughly chopping your carrots, celery, onion and garlic (about 1cm thick) and add them to a saucepan on a low to medium heat along with a good drizzle of olive oil. Add Rosemary, Thyme, Bay Leaves, salt and pepper and allow this to cook off for around 10 minutes. Before adding your liquids, now add the flour and stir through well.
   2. Next, turn your heat to high and pour in the red wine, diced tomato’s and beef stock. Allow everything to combine and come to the boil before lastly, adding the sugar. Turn off the heat and you can leave it to sit whilst you seer and brown off the lamb in a separate pan.
 
-  ##Pan
+  ### Pan
 
   1. In a pan or oven baking dish that can be used on a stove, add 3-4 tablespoons of olive oil before adding your Lamb Shoulder. Seal the Lamb on both sides (roughly 1-2 minutes on each side).
 
-  ##Oven
+  ### Oven
 
   1. In a large oven dish, one that will be big enough to lay the lamb shoulder, place the Lamb on the bottom of the dish and poor on top, the red wine stock you have just made. Alfoil the dish well and then place it in a pre-heated oven on 160 degrees for 3 ½ - 4 hours.
   2. After the suggested time, remove the dish from the oven. You can pull the Lamb from the dish and begin to pull apart the soft and tender meat at this stage (optional).
 
-  ##Stock (optional)
+  ### Stock (optional)
 
   1. With the beautiful red wine, herb and vegetable flavoured stew, you can poor it back into the saucepan on a medium heat to reduce slightly for 10 or 20 minutes on the stove. Correcting any seasoning with salt and pepper and adding a squeeze of lemon juice. Once your happy, incorporate the lamb back to the stew and serve.
   2. Serve with a creamy mashed Potato.
@@ -622,21 +611,21 @@ r14 = Recipe.create({
 r15 = Recipe.create({
   title: 'Beef, Parsley and Garlic Sausages in Curry Sauce',
   ingredients: "
-    * 1 pack of Premium Beef, Garlic and Parsley Sausages (Or any Beef Sausage)
-    * 1 Brown Onion
-    * 3 Cloves of Garlic
-    * 1 Thumb size piece of Ginger
-    * ½ a red or green Capsicum
-    * A handful of Chopped Green Beans
-    * A sprig of Spring onion
-    * 3 Tablespoons of Curry Powder
-    * 2 Tablespoons of Cumin
-    * 2 Tablespoons of Ground Coriander
-    * 2 teaspoons of white Sugar
-    * 1 Cup of chicken Stock
-    * 1 can of diced Tomatoes.
-    * 100ml of Cream
-    * ½ a lemon juiced
+  * 1 pack of Premium Beef, Garlic and Parsley Sausages (Or any Beef Sausage)
+  * 1 Brown Onion
+  * 3 Cloves of Garlic
+  * 1 Thumb size piece of Ginger
+  * ½ a red or green Capsicum
+  * A handful of Chopped Green Beans
+  * A sprig of Spring onion
+  * 3 Tablespoons of Curry Powder
+  * 2 Tablespoons of Cumin
+  * 2 Tablespoons of Ground Coriander
+  * 2 teaspoons of white Sugar
+  * 1 Cup of chicken Stock
+  * 1 can of diced Tomatoes.
+  * 100ml of Cream
+  * ½ a lemon juiced
   ",
   instructions: "
   1. In a pre-heated medium to high heat pan that can be used with a lid on, (If not use a saucepan) add your onion, garlic and ginger and fry for 2-3 minutes with 3-4 tablespoons of olive oil. Cut your sausages into 1cm pieces and add to the pan. Turn the heat to high. Once the sausages are in, add your curry powder, cumin and Ground Coriander and continue to fry and stir for a further 2-3 minutes.
@@ -650,29 +639,29 @@ r15 = Recipe.create({
 r16 = Recipe.create({
   title: 'Chicken Stir-Fry with Egg Noodles',
   ingredients: "
-    * 1 Chicken Breast
-    * 1 Carrot (Julian)
-    * 1 Capsicum
-    * Handful of Green Beans
-    * 1 Brown Onion
-    * 2 Cloves of Garlic
-    * 2cm Piece of Ginger
-    * 1 Red Chilli
-    * Handful of Sesame Seeds
-    * Handful of crushed Cashews
-    * 5 Tablespoons of Soy (2 are for the chicken Marinade)
-    * 1 Tablespoon of Sesame Oil
-    * 1 Tablespoon of Fish Sauce
-    * 2-3 Tablespoons of Honey
-    * The juice of Half a Lime
-    * Asian style egg noodles. (1Pack)
+  * 1 Chicken Breast
+  * 1 Carrot (Julian)
+  * 1 Capsicum
+  * Handful of Green Beans
+  * 1 Brown Onion
+  * 2 Cloves of Garlic
+  * 2cm Piece of Ginger
+  * 1 Red Chilli
+  * Handful of Sesame Seeds
+  * Handful of crushed Cashews
+  * 5 Tablespoons of Soy (2 are for the chicken Marinade)
+  * 1 Tablespoon of Sesame Oil
+  * 1 Tablespoon of Fish Sauce
+  * 2-3 Tablespoons of Honey
+  * The juice of Half a Lime
+  * Asian style egg noodles. (1Pack)
   ",
   instructions: "
-    1. Start by slicing the chicken breast into fine pieces. Then place the chicken into a bowl containing 2 tablespoons of soy. Leave to marinade.
-    2. Put the egg noodles into a bowl with warm water to loosen.
-    3. In a pre heated wok on a high heat, add a couple of table spoons of olive oil and add your sliced onions. Allow the onions to cook for half a minute before adding the carrot, ginger, chilli, beans and capsicum. Fry and stir your vegies for a minute or two before adding a handful of sesame seeds along with the marinated sliced chicken.
-    4. Once the chicken has cooked, finish your stir fry off by adding in the sauces. Start by 3 tablespoons of Soy, 1 tablespoon of fish, 3 tablespoons of honey and lastly, 1 tablespoon of sesame oil. Throw in your egg noodles and toss everything together well. You can now turn off the heat.
-    5. Serve in a nice bowl. Garnish with crushed cashews and freshly squeezed lime.
+  1. Start by slicing the chicken breast into fine pieces. Then place the chicken into a bowl containing 2 tablespoons of soy. Leave to marinade.
+  2. Put the egg noodles into a bowl with warm water to loosen.
+  3. In a pre heated wok on a high heat, add a couple of table spoons of olive oil and add your sliced onions. Allow the onions to cook for half a minute before adding the carrot, ginger, chilli, beans and capsicum. Fry and stir your vegies for a minute or two before adding a handful of sesame seeds along with the marinated sliced chicken.
+  4. Once the chicken has cooked, finish your stir fry off by adding in the sauces. Start by 3 tablespoons of Soy, 1 tablespoon of fish, 3 tablespoons of honey and lastly, 1 tablespoon of sesame oil. Throw in your egg noodles and toss everything together well. You can now turn off the heat.
+  5. Serve in a nice bowl. Garnish with crushed cashews and freshly squeezed lime.
   ",
   images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'default.png')))]
 })
@@ -680,24 +669,24 @@ r16 = Recipe.create({
 r17 = Recipe.create({
   title: 'Crispy Skin Roast Chicken Breast and Sweet Potato Chips',
   ingredients: "
-    * A free range chicken breast with the skin on
-    * 2 – 3 sweet potatoes
-    * 1 large red onion
-    * Dry Oregano
-    * 1 sprig of rosemary
-    * A small bunch of Thyme
-    * 2 cloves of garlic
-    * Honey
+  * A free range chicken breast with the skin on
+  * 2 – 3 sweet potatoes
+  * 1 large red onion
+  * Dry Oregano
+  * 1 sprig of rosemary
+  * A small bunch of Thyme
+  * 2 cloves of garlic
+  * Honey
   ",
   instructions: "
-    1. Start by roughly chopping the Rosemary. Then with a drizzle of olive oil, massage and rub the Oregano, Thyme and Rosemary over the chicken breast. Pre heat an oven to 170 degrees.
-    2. Take the sweet potato and roughly cut 'chip like' pieces. (Leaving the skin on is optional however if you leave the skin on, ensure to wash the potato first) Roughly chop the onion into 1-2cm pieces and finely slice the garlic.
-    3. In a pan that can be transferred to an oven, on a medium to high heat, add a couple of tablespoons of olive oil along with a good nob of quality salt free butter. Place the chicken breast skin side down in the pan along with a good pinch of salt and pepper. Fry skin side down for 2-3 minutes before adding the sweet potato and onions.
-    4. Turn your chicken breast over (the skin should be slightly golden and slightly crispy at this point) and place the pan into the oven. Alow the ingredients to roast in the oven for roughly 12-14 minutes ensuring to turn the sweet potato chips half way through.
-    5. During the oven process, the underside of the chicken breast sits in the thin layer of the butter and oil, semi frying. Whilst the top side roasts, allowing the skin to continue crisping up.
-    6. Once the chicken is cooked (if unsure, ensure to check by cutting a small slice into the thickest part of the meat) take it out of the pan and the oven, spoon over a few tablespoons of the oils that its been roasting in and allow the meat to rest for around five minutes.
-    7. Whilst the chicken is resting, turn the oven to grill and turn the temperature up to 220 degrees. Drizzle 1-2 tablespoons of honey over and around the sweet potato chips and  let them grill for 5 minutes. This will make the chips become crispier and give them a dark shiny glaze. Thats it! You can Plate up.
-    8. Serve the chicken on a bed of creamy mash Potato or Roast Pumpkin Pure.
+  1. Start by roughly chopping the Rosemary. Then with a drizzle of olive oil, massage and rub the Oregano, Thyme and Rosemary over the chicken breast. Pre heat an oven to 170 degrees.
+  2. Take the sweet potato and roughly cut 'chip like' pieces. (Leaving the skin on is optional however if you leave the skin on, ensure to wash the potato first) Roughly chop the onion into 1-2cm pieces and finely slice the garlic.
+  3. In a pan that can be transferred to an oven, on a medium to high heat, add a couple of tablespoons of olive oil along with a good nob of quality salt free butter. Place the chicken breast skin side down in the pan along with a good pinch of salt and pepper. Fry skin side down for 2-3 minutes before adding the sweet potato and onions.
+  4. Turn your chicken breast over (the skin should be slightly golden and slightly crispy at this point) and place the pan into the oven. Alow the ingredients to roast in the oven for roughly 12-14 minutes ensuring to turn the sweet potato chips half way through.
+  5. During the oven process, the underside of the chicken breast sits in the thin layer of the butter and oil, semi frying. Whilst the top side roasts, allowing the skin to continue crisping up.
+  6. Once the chicken is cooked (if unsure, ensure to check by cutting a small slice into the thickest part of the meat) take it out of the pan and the oven, spoon over a few tablespoons of the oils that its been roasting in and allow the meat to rest for around five minutes.
+  7. Whilst the chicken is resting, turn the oven to grill and turn the temperature up to 220 degrees. Drizzle 1-2 tablespoons of honey over and around the sweet potato chips and  let them grill for 5 minutes. This will make the chips become crispier and give them a dark shiny glaze. Thats it! You can Plate up.
+  8. Serve the chicken on a bed of creamy mash Potato or Roast Pumpkin Pure.
   ",
   images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'crispy-chicken.png')))]
 })
@@ -725,30 +714,29 @@ r18 = Recipe.create({
 r19 = Recipe.create({
   title: 'Beef Lasagne',
   ingredients: "
-    * 500g of quality beef mince
-    * 2 table spoons of balsamic vinegar
-    * 2 table spoons of dry oregano
-    * 2 tablesoons of Dry Rosemary
-    * 2 Carrots diced
-    * 2 sticks of Celery diced
-    * 1 large Brown Onion diced
-    * 4 cloves of Garlic chopped
-    * 3 Leaves of Bay
-    * 1 ¼ cup red wine
-    * 2 cans diced tomato's
-    * 1 cup of chicken stock
-    * 2 Tea spoons of raw sugar
+  * 500g of quality beef mince
+  * 2 table spoons of balsamic vinegar
+  * 2 table spoons of dry oregano
+  * 2 tablesoons of Dry Rosemary
+  * 2 Carrots diced
+  * 2 sticks of Celery diced
+  * 1 large Brown Onion diced
+  * 4 cloves of Garlic chopped
+  * 3 Leaves of Bay
+  * 1 ¼ cup red wine
+  * 2 cans diced tomato's
+  * 1 cup of chicken stock
+  * 2 Tea spoons of raw sugar
   ",
   instructions: "
-
-  ##Pan
+  ### Pan
 
   1. Fry your pork/beef mince off in a pan with 3 table spoons of olive oil on a high heat.
   2. Cook the meat thoroughly and or, until all the water from the meat has cooked out. (You want a completely dry mince)
   3. To this add your oregano, rosemary and your balsamic vinegar.
   4. Fry for a further 30 seconds before taking the pan off the heat and start cooking the rest of your ingredients.
 
-  ##Saucepan
+  ### Saucepan
 
   1. In a saucepan on a low-medium heat with a few tablespoons of olive oil, start by throwing in your diced onions, celery, carrots,garlic and bay and gently fry/sweat the ingredients for 10 minutes stiring throughout.
   2. Remember to add a good amount of salt and pepper.
@@ -763,24 +751,24 @@ r19 = Recipe.create({
 r20 = Recipe.create({
   title: 'Sausage and Penne Ragu',
   ingredients: "
-    * 500g of good quality Pork Sausage
-    * 3 cloves of Garlic
-    * 1 Brown onion
-    * 1 tablespoon of ground Oregano
-    * 1 tablespoon of ground Rosemary
-    * 2 carrots
-    * 2 sticks of celery
-    * 1 cup of beef stock
-    * 1 can of diced Tomato's
-    * 1 tablespoon of Raw Sugar
-    * 3 Bay leaves
-    * 100ml of cream
+  * 500g of good quality Pork Sausage
+  * 3 cloves of Garlic
+  * 1 Brown onion
+  * 1 tablespoon of ground Oregano
+  * 1 tablespoon of ground Rosemary
+  * 2 carrots
+  * 2 sticks of celery
+  * 1 cup of beef stock
+  * 1 can of diced Tomato's
+  * 1 tablespoon of Raw Sugar
+  * 3 Bay leaves
+  * 100ml of cream
   ",
   instructions: "
-    1. Start by mincing your sausage by slicing and chopping it. Then finely dice your onion, carrot, celery and garlic.
-    2. In a pan on a low to medium heat, start by sweating off your onions, carrot, celery and garlic for roughly 10 minutes to soften. During this, add your bay leaves, oregano and rosemary to allow the herbs to release maximum flavour. Then turn your pan on a high heat and incorporate your minced sausage. Fry for a few minutes to cook before adding your other ingredients.
-    3. With the pan still on a high heat, add your sugar along with a cup of stock. Bring this to the boil and stir through well, before adding a can of diced tomato’s. Place a lid on top of your pan and leave the Ragu to simmer for 30 – 60 minutes. Ensure to stir throughout. Before serving, drizzle 100ml of thickened cream into the Ragu to achieve a richer Tomato sauce. You can also add a knob of butter if you wish.
-    4. Serve your Ragu with Penne pasta and garnish with freshly chopped parsley.
+  1. Start by mincing your sausage by slicing and chopping it. Then finely dice your onion, carrot, celery and garlic.
+  2. In a pan on a low to medium heat, start by sweating off your onions, carrot, celery and garlic for roughly 10 minutes to soften. During this, add your bay leaves, oregano and rosemary to allow the herbs to release maximum flavour. Then turn your pan on a high heat and incorporate your minced sausage. Fry for a few minutes to cook before adding your other ingredients.
+  3. With the pan still on a high heat, add your sugar along with a cup of stock. Bring this to the boil and stir through well, before adding a can of diced tomato’s. Place a lid on top of your pan and leave the Ragu to simmer for 30 – 60 minutes. Ensure to stir throughout. Before serving, drizzle 100ml of thickened cream into the Ragu to achieve a richer Tomato sauce. You can also add a knob of butter if you wish.
+  4. Serve your Ragu with Penne pasta and garnish with freshly chopped parsley.
   ",
   images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'penne-ragu.JPG')))]
 })
@@ -788,8 +776,7 @@ r20 = Recipe.create({
 r21 = Recipe.create({
   title: 'Pork Meatballs with a Caffiar Lime leaf and Lemon Grass Broth',
   ingredients: "
-
-  ##Rissoles
+  ### Rissoles
 
   * 1 packet of pork mince
   * 1 brown onion diced
@@ -799,7 +786,7 @@ r21 = Recipe.create({
   * ¼  cup of milk
   * A good pinch of salt and pepper.
 
-  ##Sauce
+  ### Sauce
 
   * 3 garlic cloves
   * A thumb size piece of ginger
@@ -818,15 +805,14 @@ r21 = Recipe.create({
   * 1 block of palm sugar
   ",
   instructions: "
-
-  ##Rissoles
+  ### Rissoles
 
   1. Sweat off the onion and garlic with salt and pepper for a few minutes to soften.
   2. Once it’s cooled, add them to the mince mixture with all the other ingredients and combine well.
   3. Make your meatballs golf around ball size. Leave the meatballs in the fridge to rest for at least an hour to firm up.
   4. Then 20 minutes before cooking take them out of the fridge to become room temperature.
 
-  ##Sauce
+  ### Sauce
 
   1. In a non stick pan on a medium to high heat, add your meatballs and cook for a minute or two on each side to seal well. Remember, they will still be raw in the middle. This is just to ensure nice colouring.
   2. In a separate pan on a medium- high heat, add a finely diced onion, ginger and garlic with a good amount of extra virgin olive oil. Cook off for a few minutes before adding your tablespoon of coriander and turmeric along with ½ a chilli. Toast off the spices for around 30 seconds. Now add your chicken stock and coconut milk.
