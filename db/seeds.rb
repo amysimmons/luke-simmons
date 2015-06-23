@@ -116,56 +116,58 @@ r2 = Recipe.create({
 r3 = Recipe.create({
   title: 'Thai Satay Beef or Chicken',
   ingredients: "
-  ### Paste
 
-  * ½  a red chilli
-  * 2 sprigs of spring onions
-  * 4-6 cardamom pods
-  * 4 garlic cloves
-  * A thumb size piece of ginger
-  * 1 T spoon of ground nutmeg
-  * 1 T spoon of ground coriander
-  * 1 T spoon of ground cumin
+### Paste
 
-  ### Sauce
+* ½  a red chilli
+* 2 sprigs of spring onions
+* 4-6 cardamom pods
+* 4 garlic cloves
+* A thumb size piece of ginger
+* 1 T spoon of ground nutmeg
+* 1 T spoon of ground coriander
+* 1 T spoon of ground cumin
 
-  * 2-3 tablespoons of peanut butter
-  * 3 tablespoons soy sauce
-  * 1 lime juiced
-  * 1 cinnamon stick
-  * 4 caffier lime leaves
-  * 1 block of palm sugar
-  * 1 cup of chicken stock
-  * 1 can of coconut milk (or 1 cup of milk)
-  * 1 tablespoon of honey
+### Sauce
 
-  ### Pan
+* 2-3 tablespoons of peanut butter
+* 3 tablespoons soy sauce
+* 1 lime juiced
+* 1 cinnamon stick
+* 4 caffier lime leaves
+* 1 block of palm sugar
+* 1 cup of chicken stock
+* 1 can of coconut milk (or 1 cup of milk)
+* 1 tablespoon of honey
 
-  * 1 chicken breast or 1 piece of sirloin steak -finely sliced (depending on what meat you prefer)
-  * 2 sliced carrots (Julian)
-  * 1 sliced brown onion
-  * A handful of snow beans
-  * A handful of toasted nuts
+### Pan
+
+* 1 chicken breast or 1 piece of sirloin steak -finely sliced (depending on what meat you prefer)
+* 2 sliced carrots (Julian)
+* 1 sliced brown onion
+* A handful of snow beans
+* A handful of toasted nuts
   ",
   instructions: "
-  ### Paste
 
-  1. Ground in a pestle and mortal with 2 tablespoons of olive oil to form a paste
+### Paste
 
-  ### Sauce
+1. Ground in a pestle and mortal with 2 tablespoons of olive oil to form a paste
 
-  1. Fry off your paste in a saucepan on a medium to high heat (2-3 mins) to release the aroma of the ingredients.
-  2. Add your peanut butter and your chicken stock along with the 3 tablespoons of soy sauce.
-  3. Add your remaining ingredients to your sauce (cinnamon stick, lime leaves, palm sugar, coconut milk and the juice of a lime) and leave for a gentle simmer for 1 hr.
-  4. Strain the sauce through a fine siv to ensure a perfectly smooth satay sauce.
-  5. Return to the saucepan and leave to gently simmer for a further 30 minutes.
+### Sauce
 
-  ### Pan
+1. Fry off your paste in a saucepan on a medium to high heat (2-3 mins) to release the aroma of the ingredients.
+2. Add your peanut butter and your chicken stock along with the 3 tablespoons of soy sauce.
+3. Add your remaining ingredients to your sauce (cinnamon stick, lime leaves, palm sugar, coconut milk and the juice of a lime) and leave for a gentle simmer for 1 hr.
+4. Strain the sauce through a fine siv to ensure a perfectly smooth satay sauce.
+5. Return to the saucepan and leave to gently simmer for a further 30 minutes.
 
-  1. Put in your onions and carrots into a hot pan with 1 tablespoon of olive oil and fry until caramelised (2 -3 mins).
-  2. Add your beef or chicken along with your snow beans and cook until ¾ of the way cooked (ensuring not to overcook at this point).
-  3. Then add the pan fry ingredients to the simmering sauce and leave for a further few minutes to simmer (or until the meat cooks completely in the sauce).
-  4. Serve with fluffy rice.
+### Pan
+
+1. Put in your onions and carrots into a hot pan with 1 tablespoon of olive oil and fry until caramelised (2 -3 mins).
+2. Add your beef or chicken along with your snow beans and cook until ¾ of the way cooked (ensuring not to overcook at this point).
+3. Then add the pan fry ingredients to the simmering sauce and leave for a further few minutes to simmer (or until the meat cooks completely in the sauce).
+4. Serve with fluffy rice.
   ",
   images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'thai-satay.jpg')))]
 })
@@ -173,46 +175,48 @@ r3 = Recipe.create({
 r4 = Recipe.create({
   title: 'Spaghetti Bolognaise',
   ingredients: "
-  ### Napoli Sauce
 
-  * 2 Carrots
-  * 2 celery sticks
-  * 1 brown Onion
-  * 4 garlic cloves
-  * Handful of cherry tomatoes or 2 normal tomatoes (optional- gives a greenhouse perfume taste)
-  * Bunch of basil leaves
-  * 1 cup of beef stock
-  * 2 table spoons of raw sugar
-  * 1 sprig of rosemary
-  * Good amount of Salt and pepper.
-  * 1 can diced tomatos
+### Napoli Sauce
 
-  ### Bolognaise
+* 2 Carrots
+* 2 celery sticks
+* 1 brown Onion
+* 4 garlic cloves
+* Handful of cherry tomatoes or 2 normal tomatoes (optional- gives a greenhouse perfume taste)
+* Bunch of basil leaves
+* 1 cup of beef stock
+* 2 table spoons of raw sugar
+* 1 sprig of rosemary
+* Good amount of Salt and pepper.
+* 1 can diced tomatos
 
-  * 250g of pork mince and 250g of beef mince
-  * 2 table spoons of balsamic vinegar
-  * 2 table spoons of dry oregano
-  * 3 bay leaves
-  * 1 ¼ cup red wine
+### Bolognaise
+
+* 250g of pork mince and 250g of beef mince
+* 2 table spoons of balsamic vinegar
+* 2 table spoons of dry oregano
+* 3 bay leaves
+* 1 ¼ cup red wine
   ",
   instructions: "
-  ### Napoli sauce
 
-  1. Roughly chop all your ingredients.
-  2. To a saucepan on a medium heat with olive oil, add your onions and garlic and sweat off for 10 minutes.
-  3. Add in all your other ingredients, (excluding your basil which you add in the last 10 minutes of simmering) and bring it to a boil, and then turn to a low heat with the lid on and simmer for an hour.
-  4. Then blitz to a soup like consistency.
-  5. You can Season with salt and pepper to your taste.
+### Napoli sauce
 
-  ### Pan
+1. Roughly chop all your ingredients.
+2. To a saucepan on a medium heat with olive oil, add your onions and garlic and sweat off for 10 minutes.
+3. Add in all your other ingredients, (excluding your basil which you add in the last 10 minutes of simmering) and bring it to a boil, and then turn to a low heat with the lid on and simmer for an hour.
+4. Then blitz to a soup like consistency.
+5. You can Season with salt and pepper to your taste.
 
-  1. Fry your pork/beef mince off in a pan with 3 table spoons of olive oil on a high heat.
-  2. Cook the meat thoroughly and or, until all the water from the meat has cooked out. (You want a completely dry mince)
-  3. To this add your oregano and your balsamic vinegar.
-  4. Fry for a further 30 seconds before adding your good quality red wine.
-  5. Cook for a further 30 seconds to burn the alcohol off and then turn to a low heat.
-  6. To the same pan (ensuring it has a lid – if not use a saucepan) add your Napoli sauce and leave to simmer on a low heat for 1 ½ hours. Ensuring to stir occasionally.
-  7. Serve with spaghetti and garnish with chopped parsley and parmesan cheese.
+### Pan
+
+1. Fry your pork/beef mince off in a pan with 3 table spoons of olive oil on a high heat.
+2. Cook the meat thoroughly and or, until all the water from the meat has cooked out. (You want a completely dry mince)
+3. To this add your oregano and your balsamic vinegar.
+4. Fry for a further 30 seconds before adding your good quality red wine.
+5. Cook for a further 30 seconds to burn the alcohol off and then turn to a low heat.
+6. To the same pan (ensuring it has a lid – if not use a saucepan) add your Napoli sauce and leave to simmer on a low heat for 1 ½ hours. Ensuring to stir occasionally.
+7. Serve with spaghetti and garnish with chopped parsley and parmesan cheese.
   ",
   images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'spaghetti.png')))]
 })
@@ -239,45 +243,47 @@ r5 = Recipe.create({
 r6 = Recipe.create({
   title: 'Indian Curry Beef or Chicken',
   ingredients: "
-  ### Paste
 
-  * 2 garlic cloves
-  * ½ a  red chilli
-  * ½ a brown onion
-  * A thumb size piece of ginger
-  * 8-10 cardamom pods
-  * 1 ½ tablespoons of brown sugar
-  * 3 tablespoons of curry powder
-  * 3 tablespoons of gara masalam
-  * 2 tablespoons of ground cumin
-  * 1 tablespoon of ground coriander
-  * 1 tablespoon of ground turmeric
-  * 2 tablespoons of extra virgin olive oil
+### Paste
 
-  ### Curry
+* 2 garlic cloves
+* ½ a  red chilli
+* ½ a brown onion
+* A thumb size piece of ginger
+* 8-10 cardamom pods
+* 1 ½ tablespoons of brown sugar
+* 3 tablespoons of curry powder
+* 3 tablespoons of gara masalam
+* 2 tablespoons of ground cumin
+* 1 tablespoon of ground coriander
+* 1 tablespoon of ground turmeric
+* 2 tablespoons of extra virgin olive oil
 
-  * 1 cup of chicken stock
-  * 1 can of diced tomatoes
-  * 1 can of coconut milk (300ml)
-  * ½ a sweet potato (diced -2cm pieces)
-  * 1-2 Chicken Breasts or 1-2 pieces of rump steak
-  * A handful of curry leaves
-  * The juice of half a lime
+### Curry
+
+* 1 cup of chicken stock
+* 1 can of diced tomatoes
+* 1 can of coconut milk (300ml)
+* ½ a sweet potato (diced -2cm pieces)
+* 1-2 Chicken Breasts or 1-2 pieces of rump steak
+* A handful of curry leaves
+* The juice of half a lime
   ",
   instructions: "
-  ### Paste
 
-  1. In a hot pan with no oil, individually lightly toast the spices to release their aromas and then add to a pestle and mortal.
-  2. Roughly chop your other ingredients and add them in with the spices.
-  3. Pound the mixture together, adding olive oil to form a paste.
-  4. Leave in the fridge to develop flavour for 2-3 hours.
+### Paste
 
-  ### Pan
+1. In a hot pan with no oil, individually lightly toast the spices to release their aromas and then add to a pestle and mortal.
+2. Roughly chop your other ingredients and add them in with the spices.
+3. Pound the mixture together, adding olive oil to form a paste.
+4. Leave in the fridge to develop flavour for 2-3 hours.
 
-  1. In a pan on a medium - high heat, add a splash of olive oil then add your paste. Cook off the ingredients in the paste for 2-3 minutes ensuring not to burn. (If your using beef, add it after the 3 minutes to brown off the meat– (not cooking – just sealing the meat). Add your diced sweet potato and fry for a further minute before slowly adding the cup of chicken stock.
-  2. Once the chicken stock begins to boil, add the can of diced tomatoes and the coconut milk, ensuring that the heat gets turned down to low at this point. Throw in your curry leaves and leave to gently simmer, with a lid on, for 2 hrs. Remove the sweet potato after an hour and place to one side (once cooked – optional) and remove the curry leaves.
-  3. If you’re using chicken breast, slice the breast into halves and grill on a barbeque. This will give your meet a lovely char flavour. Ensure that the chicken breast is lightly seasoned and that the barbeque is a on a medium to high heat. Cook for 3-4 minutes on each side before adding it to your curry along with your sweet potato. Turn off the heat and squeeze in the juice of your lime.
-  4, Serve with – a homemade Raita freshly chopped tomatoes, sliced spring onion and clove infused rice.
+### Pan
+
+1. In a pan on a medium - high heat, add a splash of olive oil then add your paste. Cook off the ingredients in the paste for 2-3 minutes ensuring not to burn. (If your using beef, add it after the 3 minutes to brown off the meat– (not cooking – just sealing the meat). Add your diced sweet potato and fry for a further minute before slowly adding the cup of chicken stock.
+2. Once the chicken stock begins to boil, add the can of diced tomatoes and the coconut milk, ensuring that the heat gets turned down to low at this point. Throw in your curry leaves and leave to gently simmer, with a lid on, for 2 hrs. Remove the sweet potato after an hour and place to one side (once cooked – optional) and remove the curry leaves.
+3. If you’re using chicken breast, slice the breast into halves and grill on a barbeque. This will give your meet a lovely char flavour. Ensure that the chicken breast is lightly seasoned and that the barbeque is a on a medium to high heat. Cook for 3-4 minutes on each side before adding it to your curry along with your sweet potato. Turn off the heat and squeeze in the juice of your lime.
+4, Serve with – a homemade Raita freshly chopped tomatoes, sliced spring onion and clove infused rice.
   ",
   images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'indian-curry.jpg')))]
 })
@@ -298,10 +304,10 @@ r7 = Recipe.create({
   * 1 lemon juiced
   * 2 tablespoons of corn flour
 
-  ### To Garnish
+### To Garnish
 
-  * Chopped chives
-  * Grated Parmesan
+* Chopped chives
+* Grated Parmesan
 ",
   instructions: "
   1. First, dice the steak into 2cm pieces. Fry in a hot pan ensuring to seal all the sides of the meat. Remove the steak from the heat once it’s sealed and sit to one side. Roughly chop the onion, carrots, celery and garlic.
@@ -339,52 +345,54 @@ r8 = Recipe.create({
 r9 = Recipe.create({
   title: 'Bruchetta Breads',
   ingredients: "
-  ### Basil Pesto
 
-  * Good bunch of basil
-  * 2 garlic cloves
-  * 1 red chilli
-  * 3-4 tablespoons of sunflower or canola oil
-  * A pinch of salt
-  * A pinch of pepper
-  * 1 lemon juiced
+### Basil Pesto
 
-  ### Crispy Breads with Garlic
+* Good bunch of basil
+* 2 garlic cloves
+* 1 red chilli
+* 3-4 tablespoons of sunflower or canola oil
+* A pinch of salt
+* A pinch of pepper
+* 1 lemon juiced
 
-  * 1 white French stick
-  * 1 garlic clove
-  * Salt
-  * Pepper
-  * Oil
+### Crispy Breads with Garlic
 
-  ### Bruschetta
+* 1 white French stick
+* 1 garlic clove
+* Salt
+* Pepper
+* Oil
 
-  * 1 red onion
-  * 4-5 buffalo mozzarella
-  * 1 packet of cherry tomatoes
-  * ½ a packet of rocket
+### Bruschetta
+
+* 1 red onion
+* 4-5 buffalo mozzarella
+* 1 packet of cherry tomatoes
+* ½ a packet of rocket
   ",
   instructions: "
-  ### Basil Pesto
 
-  1. Place all the ingredients into a food processor and blitz to form a pesto. If you don’t have a food processor you can achieve the same result in a pestal and mortal.
+### Basil Pesto
 
-  ### Crispy Breads with Garlic
+1. Place all the ingredients into a food processor and blitz to form a pesto. If you don’t have a food processor you can achieve the same result in a pestal and mortal.
 
-  1. Slice the French stick on an angle. Try to achieve a 1-2cm size piece for every slice.
-  2. Spread all the slices of bread onto a baking tray.
-  3. Lightly drizzle with oil and a good pinch of salt and pepper.
-  4. In a pre-heated oven of 150 degrees, place in the tray with your croutons and leave for 6-8 minutes.
-  5. Or leave them until the croutons are golden crispy on the outside and semi-soft in the middle.
+### Crispy Breads with Garlic
 
-  ### Bruschetta
+1. Slice the French stick on an angle. Try to achieve a 1-2cm size piece for every slice.
+2. Spread all the slices of bread onto a baking tray.
+3. Lightly drizzle with oil and a good pinch of salt and pepper.
+4. In a pre-heated oven of 150 degrees, place in the tray with your croutons and leave for 6-8 minutes.
+5. Or leave them until the croutons are golden crispy on the outside and semi-soft in the middle.
 
-  1. Finely slice the red onion.
-  2. Slice the tomatoes into quarters and the buffalo mozzarella into eighths to make lovely bite size pieces.
-  3. Try to finely slice the rockuette as best you can.
-  4. Once the croutons are cooked and still warm, grab a piece of garlic and rub it over each of the croutons to give a subtle ‘hum’ of garlic.
-  5. Begin pasting the homemade pesto onto each crouton.
-  6. Finally carefully layer the remaining ingredients to make an elegant, but yet extremely tasty, Bruchetta bread.
+### Bruschetta
+
+1. Finely slice the red onion.
+2. Slice the tomatoes into quarters and the buffalo mozzarella into eighths to make lovely bite size pieces.
+3. Try to finely slice the rockuette as best you can.
+4. Once the croutons are cooked and still warm, grab a piece of garlic and rub it over each of the croutons to give a subtle ‘hum’ of garlic.
+5. Begin pasting the homemade pesto onto each crouton.
+6. Finally carefully layer the remaining ingredients to make an elegant, but yet extremely tasty, Bruchetta bread.
   ",
   images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'bruchetta.jpg')))]
 })
@@ -392,67 +400,69 @@ r9 = Recipe.create({
 r10 = Recipe.create({
   title: 'Pork and Beef Mince Meatballs with Fennel Seeds, Rosemary and Mozzarella',
   ingredients: "
-  ### Gourmet Tomato Sauce
 
-  * 1 Brown onion
-  * 3-4 Garlic Cloves
-  * 1 can of Diced Tomatoes
-  * 3 tablespoons of Balsamic Vinegar
-  * 2 sprigs of spring onion (sliced)
-  * 2 tablespoons of Tomato Pure
-  * 2 Teaspoons of Dyjon Mustard
-  * 1 tablespoon of raw Sugar
-  * 3 tablespoons of dry Oregano
-  * Half a bunch of Basil
-  * ¼ cup of Milk
-  * 1 cup of chicken stock
-  * 2 tablespoons of ground Coriander
-  * A knob of Butter
-  * Salt and Pepper
+### Gourmet Tomato Sauce
 
-  ### Meatballs
+* 1 Brown onion
+* 3-4 Garlic Cloves
+* 1 can of Diced Tomatoes
+* 3 tablespoons of Balsamic Vinegar
+* 2 sprigs of spring onion (sliced)
+* 2 tablespoons of Tomato Pure
+* 2 Teaspoons of Dyjon Mustard
+* 1 tablespoon of raw Sugar
+* 3 tablespoons of dry Oregano
+* Half a bunch of Basil
+* ¼ cup of Milk
+* 1 cup of chicken stock
+* 2 tablespoons of ground Coriander
+* A knob of Butter
+* Salt and Pepper
 
-  * Pork / Beef mince (500g)
-  * 1 Brown Onion
-  * 2 cloves of Garlic
-  * 1 Egg
-  * A dash of Milk
-  * 2 tablespoons of pounded Fennel Seeds
-  * 1-2 sprigs of chopped Rosemary
-  * 2 Teaspoons of white sugar
-  * A handful of Breadcrumbs
-  * Salt and Pepper
-  * Olive oil
-  * Plain or corn Flour
-  * 2 eggs (egg wash)
+### Meatballs
 
-  ### Salad
+* Pork / Beef mince (500g)
+* 1 Brown Onion
+* 2 cloves of Garlic
+* 1 Egg
+* A dash of Milk
+* 2 tablespoons of pounded Fennel Seeds
+* 1-2 sprigs of chopped Rosemary
+* 2 Teaspoons of white sugar
+* A handful of Breadcrumbs
+* Salt and Pepper
+* Olive oil
+* Plain or corn Flour
+* 2 eggs (egg wash)
 
-  * 1 cucumber
-  * 1 carrot
-  * 1 lemon
-  * 3 tablespoons of olive oil
-  * Approximately half a pack of crispy Asian noodles
+### Salad
+
+* 1 cucumber
+* 1 carrot
+* 1 lemon
+* 3 tablespoons of olive oil
+* Approximately half a pack of crispy Asian noodles
   ",
   instructions: "
-  ### Gourmet Tomato Sauce
 
-  1. In a pan on a high heat, add your finely diced onion and garlic along with 2-3 tablespoons of olive oil.
-  2. Cook for 2-3 minutes to take the ‘rawness’ out of the veg before adding the can of diced tomatoes followed by all the other ingredients.
-  3. Once all the ingredients are incorporated into the pan, turn to a low heat and leave the sauce to simmer in a pan with a lid on for 2-3 hours.
-  4. You can add half a cup of water half way through if the sauce begins to dry out.
+### Gourmet Tomato Sauce
 
-  ### Meatballs
+1. In a pan on a high heat, add your finely diced onion and garlic along with 2-3 tablespoons of olive oil.
+2. Cook for 2-3 minutes to take the ‘rawness’ out of the veg before adding the can of diced tomatoes followed by all the other ingredients.
+3. Once all the ingredients are incorporated into the pan, turn to a low heat and leave the sauce to simmer in a pan with a lid on for 2-3 hours.
+4. You can add half a cup of water half way through if the sauce begins to dry out.
 
-  1. First, in a pan on a medium heat, add the garlic and onion and sweat off until softened nicely. Get a mixing bowl and add all the other ingredients. Once the onion and garlic mix has cooled, add it to the bowl with the other ingredients and with your fingers, mix and combine everything together well. Divide the mix by four and form each quarter into beautifully large round meatballs.
-  2. Next, get yourself three bowls. One containing an egg mix, one containing a plain or corn flour mix and the third is for your bread crumbs. Roll your Meatballs in the flour, the egg and the breadcrumbs, ensuring to coat them well. Leave the meatballs in the fridge to rest for a minimum of 30 minutes to harden, before taking them out of the fridge to begin cooking. When you’re ready to eat, pull the meatballs out of the fridge for 20 minutes before frying
-  3. In a pan on a medium to high heat, add 3 tablespoons of olive oil and add the meatballs. Fry in the pan on each side for approximately 2-3 minutes to develop a crunchy and golden crust. Once you have achieved this, place the meatballs in a pre-heated oven of 180 degrees and cook for a further 15-20 minutes making sure you flip your meatballs once throughout the oven baking process. Whilst the meatballs are cooking in the oven, you can begin to make the salad.
+### Meatballs
 
-  ### Salad
+1. First, in a pan on a medium heat, add the garlic and onion and sweat off until softened nicely. Get a mixing bowl and add all the other ingredients. Once the onion and garlic mix has cooled, add it to the bowl with the other ingredients and with your fingers, mix and combine everything together well. Divide the mix by four and form each quarter into beautifully large round meatballs.
+2. Next, get yourself three bowls. One containing an egg mix, one containing a plain or corn flour mix and the third is for your bread crumbs. Roll your Meatballs in the flour, the egg and the breadcrumbs, ensuring to coat them well. Leave the meatballs in the fridge to rest for a minimum of 30 minutes to harden, before taking them out of the fridge to begin cooking. When you’re ready to eat, pull the meatballs out of the fridge for 20 minutes before frying
+3. In a pan on a medium to high heat, add 3 tablespoons of olive oil and add the meatballs. Fry in the pan on each side for approximately 2-3 minutes to develop a crunchy and golden crust. Once you have achieved this, place the meatballs in a pre-heated oven of 180 degrees and cook for a further 15-20 minutes making sure you flip your meatballs once throughout the oven baking process. Whilst the meatballs are cooking in the oven, you can begin to make the salad.
 
-  1. With a peeler, peel the carrots and the cucumber length ways to for long ribbons. (Peel right down to the core)
-  2. Place the noodles on a baking tray and place into the oven for the final five minutes of the meatballs cooking time. Toss all the ingredients in a bowl along with the juice of one lemon and the olive oil.
-  3. You can now plate up the deliciously crispy, but still moist meatballs with your homemade Tomato Sauce and the fresh salad.
+### Salad
+
+1. With a peeler, peel the carrots and the cucumber length ways to for long ribbons. (Peel right down to the core)
+2. Place the noodles on a baking tray and place into the oven for the final five minutes of the meatballs cooking time. Toss all the ingredients in a bowl along with the juice of one lemon and the olive oil.
+3. You can now plate up the deliciously crispy, but still moist meatballs with your homemade Tomato Sauce and the fresh salad.
   ",
   images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'pork-meatballs.jpg')))]
 })
@@ -494,43 +504,45 @@ r11 = Recipe.create({
 r12 = Recipe.create({
   title: 'Thai Green Curry',
   ingredients: "
-  ### Paste
 
-  * 3 large sprigs of Spring Onion
-  * 1 medium size lemon grass
-  * 3-5 Caffiar Lime Leaves
-  * 2 Green Chilli
-  * 1 block of Palm Sugar
-  * 3-4 Cloves of garlic
-  * A thumb size piece of Ginger
-  * 2 tablespoons of ground Coriander
-  * Pinch of Salt
-  * Cracked Pepper
-  * 1 tablespoon soy sauce
-  * 1 tablespoon fish sauce
-  * 2 tablespoons of sesame oil
-  * 1 cup chicken stock
+### Paste
 
-  ### Pan
+* 3 large sprigs of Spring Onion
+* 1 medium size lemon grass
+* 3-5 Caffiar Lime Leaves
+* 2 Green Chilli
+* 1 block of Palm Sugar
+* 3-4 Cloves of garlic
+* A thumb size piece of Ginger
+* 2 tablespoons of ground Coriander
+* Pinch of Salt
+* Cracked Pepper
+* 1 tablespoon soy sauce
+* 1 tablespoon fish sauce
+* 2 tablespoons of sesame oil
+* 1 cup chicken stock
 
-  * 2 Chicken Breast
-  * 2 Carrots
-  * A good handful of Green Beans
-  * A good handful of Sesame Seeds
-  * 3 tablespoons of honey
+### Pan
+
+* 2 Chicken Breast
+* 2 Carrots
+* A good handful of Green Beans
+* A good handful of Sesame Seeds
+* 3 tablespoons of honey
   ",
   instructions: "
-  ### Paste
 
-  1. In a Pestal and Mortal, pound all the ingredients together to form a paste. Drizzle in 2-3 tablespoons of olive oil and leave to rest in a fridge for at least one hour.
-  2. In a saucepan on a low to medium heat with a dash of olive oil, add half a diced brown onion and your Thai paste. Slowly fry off the ingredients for about 5-10 minutes before adding 1 cup of vegetable stock to the paste along with the juice of half a lime. Let the paste and the stock simmer with a lid on for at least half an hour to incorporate and develop taste and aroma. Add your chicken stock, soy sauce, fish sauce and sesame oil and leave for an hour to simmer would be ideal.
+### Paste
 
-  ### Pan
+1. In a Pestal and Mortal, pound all the ingredients together to form a paste. Drizzle in 2-3 tablespoons of olive oil and leave to rest in a fridge for at least one hour.
+2. In a saucepan on a low to medium heat with a dash of olive oil, add half a diced brown onion and your Thai paste. Slowly fry off the ingredients for about 5-10 minutes before adding 1 cup of vegetable stock to the paste along with the juice of half a lime. Let the paste and the stock simmer with a lid on for at least half an hour to incorporate and develop taste and aroma. Add your chicken stock, soy sauce, fish sauce and sesame oil and leave for an hour to simmer would be ideal.
 
-  1. Slice the chicken breast through the middle length ways. Throw a handful of sesame seeds over both sides of the chicken and pound them in ensuring they encrust the chicken breasts.
-  2. In a pan on a medium to high heat with 2-3 tablespoons of olive oil, add your chicken. Flip the chicken every few minutes to crispin up the sesame seeds. Once the chicken is very nearly cooked, turn the heat to high poor over about 3 tablespoons of honey. Your chicken will now turn golden and sticky but will also be encrusted with a crispy sesame crust.
-  3. Lastly, add sliced carrots and fresh beans to the simmering curry for about 10 minutes (or until cooked) and then your curry is finished.
-  4. Serve with fluffy Rice, freshly sliced chilli and a cheek of Lime.
+### Pan
+
+1. Slice the chicken breast through the middle length ways. Throw a handful of sesame seeds over both sides of the chicken and pound them in ensuring they encrust the chicken breasts.
+2. In a pan on a medium to high heat with 2-3 tablespoons of olive oil, add your chicken. Flip the chicken every few minutes to crispin up the sesame seeds. Once the chicken is very nearly cooked, turn the heat to high poor over about 3 tablespoons of honey. Your chicken will now turn golden and sticky but will also be encrusted with a crispy sesame crust.
+3. Lastly, add sliced carrots and fresh beans to the simmering curry for about 10 minutes (or until cooked) and then your curry is finished.
+4. Serve with fluffy Rice, freshly sliced chilli and a cheek of Lime.
   ",
   images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'thai-green.jpg')))]
 })
@@ -586,24 +598,25 @@ r14 = Recipe.create({
   * A good amount of Salt & Pepper
   ",
   instructions: "
-  ### Saucepan
 
-  1. First, start by roughly chopping your carrots, celery, onion and garlic (about 1cm thick) and add them to a saucepan on a low to medium heat along with a good drizzle of olive oil. Add Rosemary, Thyme, Bay Leaves, salt and pepper and allow this to cook off for around 10 minutes. Before adding your liquids, now add the flour and stir through well.
-  2. Next, turn your heat to high and pour in the red wine, diced tomato’s and beef stock. Allow everything to combine and come to the boil before lastly, adding the sugar. Turn off the heat and you can leave it to sit whilst you seer and brown off the lamb in a separate pan.
+### Saucepan
 
-  ### Pan
+1. First, start by roughly chopping your carrots, celery, onion and garlic (about 1cm thick) and add them to a saucepan on a low to medium heat along with a good drizzle of olive oil. Add Rosemary, Thyme, Bay Leaves, salt and pepper and allow this to cook off for around 10 minutes. Before adding your liquids, now add the flour and stir through well.
+2. Next, turn your heat to high and pour in the red wine, diced tomato’s and beef stock. Allow everything to combine and come to the boil before lastly, adding the sugar. Turn off the heat and you can leave it to sit whilst you seer and brown off the lamb in a separate pan.
 
-  1. In a pan or oven baking dish that can be used on a stove, add 3-4 tablespoons of olive oil before adding your Lamb Shoulder. Seal the Lamb on both sides (roughly 1-2 minutes on each side).
+### Pan
 
-  ### Oven
+1. In a pan or oven baking dish that can be used on a stove, add 3-4 tablespoons of olive oil before adding your Lamb Shoulder. Seal the Lamb on both sides (roughly 1-2 minutes on each side).
 
-  1. In a large oven dish, one that will be big enough to lay the lamb shoulder, place the Lamb on the bottom of the dish and poor on top, the red wine stock you have just made. Alfoil the dish well and then place it in a pre-heated oven on 160 degrees for 3 ½ - 4 hours.
-  2. After the suggested time, remove the dish from the oven. You can pull the Lamb from the dish and begin to pull apart the soft and tender meat at this stage (optional).
+### Oven
 
-  ### Stock (optional)
+1. In a large oven dish, one that will be big enough to lay the lamb shoulder, place the Lamb on the bottom of the dish and poor on top, the red wine stock you have just made. Alfoil the dish well and then place it in a pre-heated oven on 160 degrees for 3 ½ - 4 hours.
+2. After the suggested time, remove the dish from the oven. You can pull the Lamb from the dish and begin to pull apart the soft and tender meat at this stage (optional).
 
-  1. With the beautiful red wine, herb and vegetable flavoured stew, you can poor it back into the saucepan on a medium heat to reduce slightly for 10 or 20 minutes on the stove. Correcting any seasoning with salt and pepper and adding a squeeze of lemon juice. Once your happy, incorporate the lamb back to the stew and serve.
-  2. Serve with a creamy mashed Potato.
+### Stock (optional)
+
+1. With the beautiful red wine, herb and vegetable flavoured stew, you can poor it back into the saucepan on a medium heat to reduce slightly for 10 or 20 minutes on the stove. Correcting any seasoning with salt and pepper and adding a squeeze of lemon juice. Once your happy, incorporate the lamb back to the stew and serve.
+2. Serve with a creamy mashed Potato.
   ",
   images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'default.png')))]
 })
@@ -729,21 +742,22 @@ r19 = Recipe.create({
   * 2 Tea spoons of raw sugar
   ",
   instructions: "
-  ### Pan
 
-  1. Fry your pork/beef mince off in a pan with 3 table spoons of olive oil on a high heat.
-  2. Cook the meat thoroughly and or, until all the water from the meat has cooked out. (You want a completely dry mince)
-  3. To this add your oregano, rosemary and your balsamic vinegar.
-  4. Fry for a further 30 seconds before taking the pan off the heat and start cooking the rest of your ingredients.
+### Pan
 
-  ### Saucepan
+1. Fry your pork/beef mince off in a pan with 3 table spoons of olive oil on a high heat.
+2. Cook the meat thoroughly and or, until all the water from the meat has cooked out. (You want a completely dry mince)
+3. To this add your oregano, rosemary and your balsamic vinegar.
+4. Fry for a further 30 seconds before taking the pan off the heat and start cooking the rest of your ingredients.
 
-  1. In a saucepan on a low-medium heat with a few tablespoons of olive oil, start by throwing in your diced onions, celery, carrots,garlic and bay and gently fry/sweat the ingredients for 10 minutes stiring throughout.
-  2. Remember to add a good amount of salt and pepper.
-  3. After 10 minutes, turn the saucepan up to a high heat, add a little more oil along with the red wine.
-  4. Reduce the wed wine slightly allowing the alcohol to burn away yet slightly intensifying the red wine taste, before adding the cans of diced tomato's. Bring the sauce to the boil and incorporate the cooked mince, chicken stock and sugar.
-  5. Mix everything together well. Once everything has come to the biol for the final time, reduce the heat to a low and place a lid on the saucepan.
-  6. Simmer for 2-3 hours.
+### Saucepan
+
+1. In a saucepan on a low-medium heat with a few tablespoons of olive oil, start by throwing in your diced onions, celery, carrots,garlic and bay and gently fry/sweat the ingredients for 10 minutes stiring throughout.
+2. Remember to add a good amount of salt and pepper.
+3. After 10 minutes, turn the saucepan up to a high heat, add a little more oil along with the red wine.
+4. Reduce the wed wine slightly allowing the alcohol to burn away yet slightly intensifying the red wine taste, before adding the cans of diced tomato's. Bring the sauce to the boil and incorporate the cooked mince, chicken stock and sugar.
+5. Mix everything together well. Once everything has come to the biol for the final time, reduce the heat to a low and place a lid on the saucepan.
+6. Simmer for 2-3 hours.
   ",
   images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'default.png')))]
 })
@@ -776,49 +790,51 @@ r20 = Recipe.create({
 r21 = Recipe.create({
   title: 'Pork Meatballs with a Caffiar Lime leaf and Lemon Grass Broth',
   ingredients: "
-  ### Rissoles
 
-  * 1 packet of pork mince
-  * 1 brown onion diced
-  * 3 garlic cloves
-  * ½  cup bread crumps
-  * 1 egg
-  * ¼  cup of milk
-  * A good pinch of salt and pepper.
+### Rissoles
 
-  ### Sauce
+* 1 packet of pork mince
+* 1 brown onion diced
+* 3 garlic cloves
+* ½  cup bread crumps
+* 1 egg
+* ¼  cup of milk
+* A good pinch of salt and pepper.
 
-  * 3 garlic cloves
-  * A thumb size piece of ginger
-  * 1-2 stick of lemongrass (depending on size)
-  * 4 - 6 caffier lime leaves (depending on size)
-  * 1 cup of chicken stock
-  * 1 can of coconut milk
-  * 1 lime juiced
-  * 4 - 6 cardamom pods
-  * 1 tablespoon of ground coriander
-  * 1 tablespoon of ground turmeric
-  * A bunch of chopped parsley
-  * A handful of crushed nuts (cashews or peanuts)
-  * ½  a red chilli
-  * 2 sprigs of spring onion
-  * 1 block of palm sugar
+### Sauce
+
+* 3 garlic cloves
+* A thumb size piece of ginger
+* 1-2 stick of lemongrass (depending on size)
+* 4 - 6 caffier lime leaves (depending on size)
+* 1 cup of chicken stock
+* 1 can of coconut milk
+* 1 lime juiced
+* 4 - 6 cardamom pods
+* 1 tablespoon of ground coriander
+* 1 tablespoon of ground turmeric
+* A bunch of chopped parsley
+* A handful of crushed nuts (cashews or peanuts)
+* ½  a red chilli
+* 2 sprigs of spring onion
+* 1 block of palm sugar
   ",
   instructions: "
-  ### Rissoles
 
-  1. Sweat off the onion and garlic with salt and pepper for a few minutes to soften.
-  2. Once it’s cooled, add them to the mince mixture with all the other ingredients and combine well.
-  3. Make your meatballs golf around ball size. Leave the meatballs in the fridge to rest for at least an hour to firm up.
-  4. Then 20 minutes before cooking take them out of the fridge to become room temperature.
+### Rissoles
 
-  ### Sauce
+1. Sweat off the onion and garlic with salt and pepper for a few minutes to soften.
+2. Once it’s cooled, add them to the mince mixture with all the other ingredients and combine well.
+3. Make your meatballs golf around ball size. Leave the meatballs in the fridge to rest for at least an hour to firm up.
+4. Then 20 minutes before cooking take them out of the fridge to become room temperature.
 
-  1. In a non stick pan on a medium to high heat, add your meatballs and cook for a minute or two on each side to seal well. Remember, they will still be raw in the middle. This is just to ensure nice colouring.
-  2. In a separate pan on a medium- high heat, add a finely diced onion, ginger and garlic with a good amount of extra virgin olive oil. Cook off for a few minutes before adding your tablespoon of coriander and turmeric along with ½ a chilli. Toast off the spices for around 30 seconds. Now add your chicken stock and coconut milk.
-  3. Cut your lemon grass into half and smash with the back of a knife to release the oils and aromas. Do the same with the cardamom pods so that the shell cracks. Add the lemongrass, cardamom pods and lime leaves to the broth and add your meatballs. Add a good amount of pepper and salt and bring to the boil before reducing the heat and leaving to simmer for about 10 mins (with a lid on)
-  4. Once the meatballs are firm to touch but still slightly resistant, they are cooked. Add chopped spring onions and the juice of a lime, and then turn off the heat.
-  5. Garnish with crushed cashews or peanuts. Serve with Rice.
+### Sauce
+
+1. In a non stick pan on a medium to high heat, add your meatballs and cook for a minute or two on each side to seal well. Remember, they will still be raw in the middle. This is just to ensure nice colouring.
+2. In a separate pan on a medium- high heat, add a finely diced onion, ginger and garlic with a good amount of extra virgin olive oil. Cook off for a few minutes before adding your tablespoon of coriander and turmeric along with ½ a chilli. Toast off the spices for around 30 seconds. Now add your chicken stock and coconut milk.
+3. Cut your lemon grass into half and smash with the back of a knife to release the oils and aromas. Do the same with the cardamom pods so that the shell cracks. Add the lemongrass, cardamom pods and lime leaves to the broth and add your meatballs. Add a good amount of pepper and salt and bring to the boil before reducing the heat and leaving to simmer for about 10 mins (with a lid on)
+4. Once the meatballs are firm to touch but still slightly resistant, they are cooked. Add chopped spring onions and the juice of a lime, and then turn off the heat.
+5. Garnish with crushed cashews or peanuts. Serve with Rice.
   ",
   images: [Image.new(image: File.open(File.join(Rails.root, 'app', 'assets', 'images', 'pork-meatballs.jpg')))]
 })
